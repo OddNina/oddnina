@@ -1,0 +1,131 @@
+// --- Variables --- //
+
+// --- Colors --- //
+
+$oddblog-green: #9dbb6a;
+$oddgaming-neon-green: #bed630;
+$oddgaming-light-green: #88c540;
+$oddgaming-dark-green: #539547;
+$oddgaming-blue-green: #1d686c;
+
+
+// --- Pictures --- //
+
+$dark-bg: url(../assets/img/nina_background_dark.png);
+$head-picture: url(../assets/img/nina_background.png);
+$ireland-picture: url(../assets/img/ireland_background.png);
+$avatar-bg: url(../assets/img/nina_avatar_background.png);
+$washington-bg: url(../assets/img/washington_background.png);
+$lights-bg: url(../assets/img/lights_background.png);
+
+$oddgaming-logo: url(../assets/svg/oddgaming_logo.svg);
+$oddblog-logo: url(../assets/svg/oddblog_logo.svg);
+$fafine-logo: url(../assets/img/fafine_logo.png);
+$oddnina-logo: url(../assets/img/oddnina_logo.png);
+$oddnina-avatar: url(../assets/img/oddnina_avatar.png);
+
+$blog-light-icon: url(../assets/img/blog_l.png);
+
+$htbx-img: url(../assets/img/htbx.png);
+$kaffeekon-img: url(../assets/img/kaffekon.png);
+$insertmoin-img: url(../assets/img/insertmoin.png);
+
+// Fonts
+
+
+
+// --- General --- //
+* { margin: 0; }
+html, body { height: 100%; width: 100%}
+h1, h2, h3, h4, h5, h6 {font-weight: 400; text-transform: uppercase; letter-spacing: .2rem;}
+
+.expanded .row {width: 75rem;}
+
+.margin-top {margin-top: 4rem;}
+.center { margin: 0 auto;}
+.margin-bottom {margin-bottom: 4rem;}
+.text-align-center {text-align: center}
+
+.quote {text-align: center; max-width: 60rem;}
+.quote-bg {background-color: #f8f8f8}
+
+.light-font {color: $white !important}
+.dark-font {color: #777 !important}
+
+// --- Index --- //
+
+.head-bg {width: 100%; height: 45rem; background: $head-picture no-repeat center;}
+.margin-head {margin: 6rem 0 0 4rem;}
+.oddgaming-logo {width: 200px; height: 200px; margin-bottom: 2rem; background: $oddgaming-logo no-repeat center;}
+.oddblog-logo {width: 200px; height: 200px; margin-bottom: 2rem; background: $oddblog-logo no-repeat center;}
+.fafine-logo {width: 200px; height: 200px; margin-bottom: 2rem; background: $white $fafine-logo no-repeat center;}
+.oddnina-logo {width: 450px; height: 250px; background: $oddnina-logo no-repeat center;}
+.oddnina-avatar {width: 300px; height: 300px; background: $oddnina-avatar no-repeat center; border-radius: 100%;}
+
+// --- Profile --- //
+
+.social-list { list-style: none; margin: 1rem 0 0 0;}
+.social-list li {margin: 0 .5rem 0 0; display: inline-block;}
+.social-list li a {display: block; width: 35px; height: 35px;}
+
+.socicon-twitter {font-size: 2rem; color: $white;}
+.socicon-twitter:hover {color: #4da7de}
+.socicon-facebook {font-size: 2rem; color: $white;}
+.socicon-facebook:hover {color: #3e5b98}
+.socicon-mail {font-size: 2rem; color: $white;}
+.socicon-mail:hover {color: $oddgaming-light-green}
+.socicon-wordpress {font-size: 2rem; color: $white;}
+.socicon-wordpress:hover {color: #464646}
+.socicon-twitch {font-size: 2rem; color: $white;}
+.socicon-twitch:hover {color: #6441a5}
+.socicon-discord {font-size: 2rem; color: $white;}
+.socicon-discord:hover {color: #7289da}
+
+.button {border: .2rem solid $black; text-transform: uppercase; letter-spacing: .2rem}
+.button a {color: $black}
+.button a:hover {color: #8bad93}
+
+// --- Project --- //
+
+.projects-bg p, .projects-bg h1, .projects-bg h2, .projects-bg h3, .projects-bg h4, .projects-bg h5, .projects-bg h6 {color: #dbdbdb;}
+.projects-bg {background: $dark-bg no-repeat center;}
+
+// --- Instafeed ---- //
+
+#instafeed {text-align: center; overflow: hidden; list-style-type: none; margin: 0;
+  ul {}
+  li {margin: 0; display: inline; float: left;}
+  a {display: block; width: 14.25%; overflow: hidden; position: relative}
+	img { width: 100%; display: block; float: left; height: auto; position: relative; }
+
+}
+
+// --- About --- // 
+
+.head-about-bg {width: 100%; height: 45rem; background: $avatar-bg no-repeat center;}
+.funfact-1-bg {width: 100%; height: auto ; background: $washington-bg no-repeat center;}
+.compact {max-width: 30%; }
+.head-about-margin {margin: 15rem 0 0 15rem;}
+
+.social-icons-bg {height: 20rem; }
+.socicon-dribbble:hover {color: #e84d88;}
+.socicon-big { font-size: 10rem !important; color: $black;}
+
+.htbx-img {width: 300px; height: 220px; margin-bottom: 2rem; background: $htbx-img no-repeat center;}
+.kaffeekon-img {width: 300px; height: 220px; margin-bottom: 2rem; background: $kaffeekon-img no-repeat center;}
+.insertmoin-img {width: 300px; height: 220px; margin-bottom: 2rem; background: $insertmoin-img no-repeat center;}
+
+.funfact-2-bg {background: $lights-bg no-repeat center;}
+.funfact-2-bg h2 {text-shadow: 1px 1px 3px $black;}
+.funfact-2-bg p {text-shadow: 1px 1px 3px $black;}
+
+// --- footer --- //
+
+.dark-bg {background-color: #232323;}
+.bright-bg {height: 1.5rem; background-color: $oddgaming-blue-green}
+
+
+
+
+
+

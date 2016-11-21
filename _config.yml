@@ -1,0 +1,13 @@
+name : OddNina
+brand : Always a Shieldmaiden
+description : If tea can't fix it, it's a serious problem.
+keyword : 
+url : http://oddnina.de
+email : info@oddnina.de
+twitter : oddnina
+github : oddnina
+author : oddnina
+year : 2016
+markdown : kramdown
+exclude :
+  - node_modules

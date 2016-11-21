@@ -1,0 +1,32 @@
+
+<script type="text/javascript" src="../js/instafeed.min.js"></script>
+<div class="columns large-12">
+{% assign url = '{{image}}' %}
+<script type="text/javascript">
+
+window.onload = function() {
+
+		console.log('Instafeed custom code got called...');
+	  var feed = new Instafeed({
+	    get: 'user',
+	    userId: '2334122',
+	    clientId: 'a066e52bab744ff894555527a2c035ec',
+	    accessToken: '2334122.a066e52.fd1b1835e0bc48a6bbccb47aa64ed785',
+	    resolution: 'standard_resolution',
+	    template: '<li><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{url}}" class="{{orientation}}"/></a></li>',
+	    sortBy: 'most-recent',
+	    limit: 7,
+	    links: false,
+	    error: function(err) {
+	    		//console.log('An error occured: '+ err);
+
+			},
+			success: function(res) {
+				//console.log('Instagram sent some data: ' + JSON.stringify(res));
+			}
+	  });
+	  feed.run();
+}
+    </script>
+    <ul id="instafeed" class="clearfix"></ul>
+</div>
